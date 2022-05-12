@@ -1,0 +1,28 @@
+.cartArea{
+    position:absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   width: 400px;
+   padding: 15px;
+   background-color: #d9d9d9;
+   box-shadow: -10px 0px 10px 1px #aaaaaa;
+   transition: 300ms;
+}
+.cartArea th, .cartArea td{
+    font-size: 16px !important;
+    /* width: auto !important; */
+} 
+.cartToggleBtn{
+    background-image: url('../../public/icon/left.png');
+    height: 70px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    position: absolute;
+    left: -50px;
+    top: 50vh;
+    cursor: pointer;
+}

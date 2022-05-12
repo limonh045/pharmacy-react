@@ -1,0 +1,18 @@
+.overviewSection{
+    display: flex;
+width: 260px;
+}
+.overviewCount{
+    font-size: 40px;
+    color: white;
+    background: rgb(117, 219, 163);
+    padding: 15px 40px;
+    border-left: 4px solid red;
+}
+.overviewInfo{
+    padding: 15px 20px;
+    font-size: 40px;
+    background: #b4b4b4;
+    width: 100%;
+    text-align: center;
+}

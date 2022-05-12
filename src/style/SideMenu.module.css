@@ -1,0 +1,16 @@
+.SideArea {
+  width: 250px;
+  height: calc(100vh - 68px);
+  background: #f3f3f3;
+}
+.NavStyle {
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+}
+.NavStyle:hover {
+  background: gray;
+}
+
