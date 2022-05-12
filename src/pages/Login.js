@@ -33,7 +33,7 @@ export default function Login() {
     if (Object.keys(err).length === 0) {
       dispatch(logHandel())
     }
-  }, [err]);
+  }, [err,dispatch]);
 
   return (
     <div className={`${Classes.loginPage}`}>
