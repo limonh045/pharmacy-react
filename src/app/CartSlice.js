@@ -5,7 +5,7 @@ export const cartSlice = createSlice({
   initialState: {
     value: [],
     totalSell:[],
-    logedIn:true
+    logedIn:false
   },
   reducers: {
     cartAddItem: (state, actions) => {
